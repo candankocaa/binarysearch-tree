@@ -1,0 +1,96 @@
+
+Soru: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aþamalarýný yazýnýz.
+
+7 kök olur.
+7'nin soluna 7'den küçük deðerler yerleþtirilir. Saðýna ise büyük deðerler yerleþtirilir.
+ 
+         7
+       /   
+      5 
+1, 5'ten küçük olduðu için sola yerleþtirilir.
+
+         7
+       /   
+      5
+     /
+    1
+
+8, 7'den büyük olduðu için yedinin saðýna gelir.
+
+
+        7
+       /  \ 
+      5    8
+     /
+    1
+
+3, 1'den büyük olduðundan birin saðýna eklenir.
+ 
+
+        7
+       /  \ 
+      5    8
+     /
+    1
+     \
+      3
+
+6, 5'ten büyük beþin saðýna eklenir.
+
+
+        7
+       /  \ 
+      5    8
+     / \
+    1   6
+     \
+      3
+
+0, 1’den küçük, 1’in soluna eklenir.
+
+         7
+       /  \ 
+      5    8
+     / \
+    1   6
+   / \
+  0   3
+
+9, 8'den büyük olduðundan saðýna yerleþtirilir.
+
+
+        7
+       /  \ 
+      5    8
+     / \    \
+    1   6    9
+   / \
+  0   3
+
+    
+4, 3'ten büyük olduðu için saðýna yerleþtirilir.
+
+        7
+       /  \ 
+      5    8
+     / \    \
+    1   6    9
+   / \
+  0   3
+       \
+        4
+
+2, 4'ten küçük olduðu için saðýna yerleþtirilir.
+
+        7
+       /  \ 
+      5    8
+     / \    \
+    1   6    9
+   / \
+  0   3
+       \
+        4
+       /
+      2
+
